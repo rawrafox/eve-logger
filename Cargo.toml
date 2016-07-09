@@ -1,0 +1,12 @@
+[package]
+name = "eve-logger"
+version = "0.1.0"
+authors = ["Aurora <aurora@aventine.se>"]
+
+[[bin]]
+name = "eve-logger"
+
+[dependencies]
+libc = "0.2"
+chrono = "0.2"
+byteorder = "0.4"
